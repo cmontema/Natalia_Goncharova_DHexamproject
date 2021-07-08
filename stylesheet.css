@@ -1,0 +1,115 @@
+a {
+	color: #8c8c8c;
+}
+
+body {
+	background-color: #f2f2f2;
+	background-image: url("immagini/Immagine_di_sfondo_gardening.jpeg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+.btn {
+	font-family: "Lucida Console", monospace;
+	color: #a383af;
+	border: 4px;
+	background-color: white;
+ 	border-radius: 12px;
+ 	transition-duration: 0.2s;
+ 	cursor: pointer; 
+ 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.btn:hover { 
+	color: #f2f2f2;
+}
+
+.catalogotitolo {
+	font-family: "Lucida Console", monospace;
+	font-size: 22px;
+	text-align: center;
+}
+
+.container {
+	margin-top: 30px;
+	
+
+}
+
+.containercataloghi {
+	background-color: rgba(242, 242, 242, 0.79);
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+
+}
+
+.container-fluid {
+	background-color: rgba(242, 242, 242, 0.79);
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+#fotocard {
+	width: auto;
+	height: 400px;
+}
+
+h1, h2, h3, h5, .navbar-brand{
+	font-family: "Lucida Console", monospace;
+	color: #7f5a8c;
+}
+
+p, .nav-link, .dropdown-item, .sr-only, #sottotitolo {font-family: "Helvetica", sans-serif;
+	color: #404040;
+
+}
+
+h1, #sottotitolo {
+	color: #f2f2f2;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+
+h3{
+	text-align: center;
+}
+
+h6 { 
+	color:#f2f2f2;
+	font-family: "Lucinda Console", monospace;
+}
+
+
+li a:hover {
+	color: #f2f2f2;
+	}
+
+nav {
+	background-color: #f2f2f2;
+}
+
+.nav-item {
+	color: #a383af;
+}
+
+p {
+	font-size: 15px;
+}
+
+
+#titolopercorsi {
+	color: #f2f2f2
+}
+
+
