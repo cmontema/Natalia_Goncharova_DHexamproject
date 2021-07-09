@@ -25,7 +25,7 @@
 	<header>
 
 		<!--navbar INSERIRE COLLEGAMENTI BUTTONS - contattaci con i contatti giù-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav id="navbar"class="navbar navbar-expand-lg navbar-light bg-light">
 		  <a class="navbar-brand" href="index.html">Natalia.</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -100,112 +100,267 @@
 
 	
 	<div class="container-fluid" id="containercard">
-		<div class="row">
-			<!--breadcrumb-->
-			<div class="col-md-2">
+	<!--row contenente aside e toolbar-->
+		<div class="row" id="primarow">
+			<!--aside-->
+			<div class="col-md-2 mt-2">
+				<!--breadcrumb-->
 				<div class="row">
-
-
 					<nav aria-label="breadcrumb">
-					  <ol class="breadcrumb">
-					    <li class="breadcrumb-item"><a href="https://cmontema.github.io/Natalia_Goncharova_DHexamproject/" target="_blank" title="Vai alla homepage">Home</a></li>
-					    <li class="breadcrumb-item active" aria-current="page">Library</li>
-					  </ol>
+						<ol class="breadcrumb">
+						    <li class="breadcrumb-item"><a href="https://cmontema.github.io/Natalia_Goncharova_DHexamproject/" target="_blank" title="Vai alla homepage">Home</a></li>
+						    <li class="breadcrumb-item active" aria-current="page">Library</li>
+						</ol>
 					</nav>
+				</div>
+				<!--fine breadcrumb-->
+			</div>
+			<!--fine aside-->
+			<!--inizio colonna della riga contenente toolbar-->
+			<div class"col-md-9 mt-2">
+				<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+				  <div class="btn-group mr-2" role="group" aria-label="First group">
+				    <button type="button" class="btn btn-secondary active">tutte le opere</button>
+				    <button type="button" class="btn btn-secondary">percorsi tematici</button>
+				  </div>
+				 </div>
+			</div>
+			<!--fine colonna toolbar-->
+			<!--ultima colonna della row-->
+			<div class="col-md-1 mt-5"></div> 
+			<!--fine ultima colonna della row-->
+		</div>
+		<!--fine row aside e toolbar-->
+		<!--inizio row delle cards con aside-->
+		<div class="row pt-3" id="secondarow">
+			<!--filtri-->
+			<div class="col-md-2 mt-2">
+				<div class="row pt-2">
+					<p class="titolofiltri">Filtri di ricerca</p>
+				</div>
+				<div class="row pt-2">
+					<!--inizia qui-->
+					<p>
+						<button class="btn btn-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">Decennio</button>
+					</p>
+					<div class="collapse" id="collapse1">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">prime opere-1910</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">1911-1920</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">1921-1930</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">1931-1940</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">1941-1950</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">1951-1961</label>
+						</div>
+					</div>
 				</div>
 				<div class="row pt-2">
 					<p>
-						<button class="btn btn-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Leggi di più</button>
-						<button class="btn btn-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Leggi di più</button>
+						<button class="btn btn-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">Tecnica</button>
 					</p>
+					<div class="collapse" id="collapse2">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Acquarello</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Gouache</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Grafite e inchiostro</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Litografia</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Pittura a olio</label>
+						</div>
+					</div>
+				</div>
+				<div class="row pt-2">
 					<p>
-						<button class="btn btn-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Leggi di più</button>
+						<button class="btn btn-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseExample">Supporto materiale</button>
 					</p>
+					<div class="collapse" id="collapse3">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Carta</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Legno</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Tela</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Tessuto</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">Altro</label>
+						</div>
+					</div>
+				</div>
+				<div class="row pt-2">
+					<p>
+						<button class="btn btn-outline btn-sm" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseExample">Mostre ed esposizioni</button>
+					</p>
+					<div class="collapse" id="collapse4">
+						<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">Salon D'Automne, Parigi, 1907</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">L'art décoratif théâtral moderne, Parigi 1918</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">Biennale di Venezia, 1920</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">Les Ballets Russes de Serge de Diaghilev, Parigi, 1930</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">Mostra monografica di Parigi, 1931</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">International Exhibition of Theatre Art, MOMA di NYC, 1933</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">Twentieth Century Masterpieces: Painting and Sculpture, Tate Gallery, London, 1952</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">Nathalie Gontcharova: oeuvres récentes, Parigi, 1958</label>
+								</div>
+					</div>
+					<!--finisce qui-->
 				</div>
 			</div>
+			<!--fine filtri-->
+			<!--inizio cards-->
 			<div class="col-md-9">
 				<div class="row">
 
 					<!--card 1-->
 					<div class="col-md-4">
-						<div class="card" style="width: 18rem;">
-						  <img src="..." class="card-img-top" alt="...">
+						<div class="card" style="width: 18rem; height: 36rem;">
+						  <img src="immagini/autoritratto.jpeg" class="card-img-top" alt="N. Goncharova, Autoritratto con gigli gialli, 1907-08, State Tretyakov Gallery, Mosca">
 						  <div class="card-body">
-						    <h5 class="card-title">Card title</h5>
+						    <h5 class="card-title">Autoritratto con gigli gialli</h5>
 						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <a href="#" class="btn btn-outline btn-sm">Scopri di più</a>
 						  </div>
 						</div>
 					</div>	
 
 					<!--card 2-->
 					<div class="col-md-4">
-						<div class="card" style="width: 18rem;">
-						  <img src="..." class="card-img-top" alt="...">
+						<div class="card" style="width: 18rem; height: 36rem;">
+						  <img src="immagini/fede_angeli.jpeg" class="card-img-top" alt="N. Goncharova, Angeli che lanciano pietre sulla città, 1911, State Tretyakov Gallery, Mosca">
 						  <div class="card-body">
-						    <h5 class="card-title">Card title</h5>
+						    <h5 class="card-title">Angeli che lanciano pietre sulla città</h5>
 						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <a href="#" class="btn btn-outline btn-sm">Scopri di più</a>
 						  </div>
 						</div>
 					</div>
 
 					<!--card 3-->
 					<div class="col-md-4">
-						<div class="card" style="width: 18rem;">
-						  <img src="..." class="card-img-top" alt="...">
+						<div class="card" style="width: 18rem; height: 36rem;">
+						  <img src="immagini/model_blueback.jpeg" class="card-img-top" alt="N. Goncharova, Una modella (su sfondo blu), 1909-10, State Tretyakov Gallery, Mosca">
 						  <div class="card-body">
-						    <h5 class="card-title">Card title</h5>
+						    <h5 class="card-title">Una modella (su fondo blu)</h5>
 						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <a href="#" class="btn btn-outline btn-sm">Scopri di più</a>
 						  </div>
 						</div>
 					</div>
-
 				</div>
-				<div class="row pt-4">
 
-					<!--card 1-->
+				<div class="row pt-3">
 					<div class="col-md-4">
-						<div class="card" style="width: 18rem;">
-						  <img src="..." class="card-img-top" alt="...">
+						<div class="card" style="width: 18rem; height: 36rem;">
+						  <img src="immagini/primavera.jpeg" class="card-img-top" alt="N. Goncharova, Primavera, 1927-28, The arts club, Chicago">
 						  <div class="card-body">
-						    <h5 class="card-title">Card title</h5>
+						    <h5 class="card-title">Paravento con Primavera</h5>
 						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
-						  </div>
-						</div>
-					</div>	
-
-					<!--card 2-->
-					<div class="col-md-4">
-						<div class="card" style="width: 18rem;">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h5 class="card-title">Card title</h5>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <a href="#" class="btn btn-outline btn-sm">Scopri di più</a>
 						  </div>
 						</div>
 					</div>
-
-					<!--card 3-->
 					<div class="col-md-4">
-						<div class="card" style="width: 18rem;">
-						  <img src="..." class="card-img-top" alt="...">
+						<div class="card" style="width: 18rem; height: 36rem;">
+						  <img src="immagini/scenografia.jpeg" class="card-img-top" alt="N. Goncharova, Scenografia teatrale per l'Atto I di Le Coq D'or, 1914, Victoria and Albert Museum, London">
 						  <div class="card-body">
-						    <h5 class="card-title">Card title</h5>
+						    <h5 class="card-title">Scenografia Atto I, <em>Le Coq D'or</em></h5>
 						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <a href="#" class="btn btn-outline btn-sm">Scopri di più</a>
 						  </div>
 						</div>
 					</div>
-
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem; height: 36rem;">
+						  <img src="immagini/fertilitygoddess.jpeg" class="card-img-top" alt="N. Goncharova, La dea della fertilità, 1909-10, State Tretyakov Gallery, Mosca">
+						  <div class="card-body">
+						    <h5 class="card-title">La dea della fertilità</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline btn-sm">Scopri di più</a>
+						  </div>
+						</div>
+					</div>
 				</div>
+
 			</div>
-			<div class="col-md-1"></div>			
+			<!--fine colonna cards-->
+			<!--inizio ultima colonna-->
+			<div class="col-md-1"></div>
 
+		</div>
+		<!--fine row delle cards e aside-->
 
+	</div>	
+<!--fine container-->
+<!--pagination-->
+	<div class="row justify-content-md-center">
+		<div class="pagination">
+		  <a href="#">&laquo;</a>
+		  <a href="#" class="active">1</a>
+		  <a href="#">2</a>
+		  <a href="#">3</a>
+		  <a href="#">4</a>
+		  <a href="#">5</a>
+		  <a href="#">6</a>
+		  <a href="#">&raquo;</a>
 		</div>
 	</div>
 
@@ -234,7 +389,7 @@
 					</div>
 				</div>
 				<div class="row p-3">
-					<a href="#titolo"><button type="button" class="btn btn-outline btn-sm">Torna su</button></a>
+					<a href="#navbar"><button type="button" class="btn btn-outline btn-sm">Torna su</button></a>
 				</div>
 			</div>
 		</div>
