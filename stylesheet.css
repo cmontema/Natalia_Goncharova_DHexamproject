@@ -1,5 +1,9 @@
 a {
-	color: #8c8c8c;
+	color: #af92b9;
+}
+
+.bg-light {
+	background-color: #f2f2f2!important;
 }
 
 #bodyhomepage {
@@ -17,7 +21,7 @@ a {
 
 .btn {
 	font-family: "Lucida Console", monospace;
-	color: #a383af;
+	color: #af92b9;
 	border: 4px;
 	background-color: white;
  	border-radius: 12px;
@@ -27,13 +31,13 @@ a {
 
 }
 
-.btn-toolbar-vertical{
+.btn-toolbar-vertical {
 	margin: auto;
 
 }
 
 .btn:hover { 
-	color: #f2f2f2;
+	color: #bfbfbf;
 }
 
 .card-img-top {
@@ -42,9 +46,15 @@ a {
 	object-fit: cover;
 }
 
+.card-img-top1 {
+	width: 14,9rem;
+	height: 13rem;
+	object-fit: cover;
+}
+
 .card-img-left {
 	width: 13rem;
-	height: 12rem;
+	height: 13rem;
 	object-fit: cover;
 }
 
@@ -59,11 +69,23 @@ a {
 	margin-right: 3px;
 }
 
+.breadcrumb-item {
+	color: #f2f2f2!important;
+}
+
 .carousel-caption {
 	background-color: rgba(64, 64, 64, 0.79);
 	left: 0; 
 	right: 0; 
 	width: 100%;
+
+}
+
+
+.d-block1 {
+	width: 50%;
+	height: 30rem;
+	object-fit: cover;
 
 }
 
@@ -115,7 +137,7 @@ a {
 }
 
 #fotocard-percorsi {
-	width: 20rem;
+	width: 25rem;
 	height: 17rem;
 	object-fit: cover;
 }
@@ -125,14 +147,14 @@ h1, h2, h3, h5, .navbar-brand{
 	color: #7f5a8c; 
 }
 
-p, .nav-link, .dropdown-item, .sr-only, #sottotitolo {
-	font-family: "Helvetica", sans-serif;
-	color: #404040;
+.nav-link, .dropdown-item, .sr-only, #sottotitolo {
+	font-family: "Helvetica", sans-serif!important;
+	color: #808080!important;
 
 }
 
 h1, #sottotitolo {
-	color: #f2f2f2;
+	color: #f2f2f2!important;
 
 }
 
@@ -152,12 +174,13 @@ h6 {
 }
 
 h7 {
-	color: #a383af;
+	color: #af92b9;
+	font-family: "Helvetica", sans-serif;
 }
 
 
 li a:hover {
-	color: #f2f2f2;
+	color: #bfbfbf!important;
 }
 
 nav {
@@ -165,7 +188,7 @@ nav {
 }
 
 .nav-item {
-	color: #a383af;
+	color: #af92b9;
 }
 
 nav .breadcrumb {
@@ -180,6 +203,16 @@ nav .breadcrumb {
 
 p {
 	font-size: 15px;
+	font-family: "Helvetica", sans-serif;
+	color:#404040;
+
+}
+
+.paragraph {
+	color:#f2f2f2; 
+	font-family: "Helvetica", sans-serif;
+	font-size: 13px;
+	text-align: justify;
 }
 
 .pagination { 
@@ -207,7 +240,16 @@ p {
 }
 
 th, td {
-	color: #404040;
+	color: #404040!important;
+}
+
+.table-light, .card-light {
+	background-color: #f2f2f2!important;
+}
+
+.table-dark, .card-dark {
+	background-color: #404040!important;
+
 }
 
 .titolofiltri {
@@ -220,7 +262,7 @@ th, td {
 }
 
 #titoloitem {
-	color: #a383af;
+	color: #af92b9;
 }
 
 
