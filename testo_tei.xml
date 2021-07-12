@@ -1,0 +1,262 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Early Work of Goncharova and Larionov</title>
+				<author>Mary Chamot (1899-1993)</author>
+				<respStmt>sponsor
+					<orgName>JSTOR</orgName>
+					<link>https://www.jstor.org</link>
+				</respStmt>
+				<respStmt>codifica TEI
+					<persName xml:id="CMG">Chiara Montemagno</persName>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">
+					<objectType>articolo</objectType>
+					<title>The Burlington Magazine, Vol. 97, No.627 pp. 170+ 174</title>
+					<date when="1955">Giugno 1955</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Burlington Magazine Publications Ltd.
+				</publisher>
+				<distributor>JSTOR</distributor>
+				<link>https://www.jstor.org</link>
+				<availability status="restricted">
+					<licence>ITHAKA and Institutional Licensee Trademarks</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<!--si tratta di un articolo di un volume-->
+				<biblStruct>
+					<analytic>
+					<author>Chamot, Mary</author>
+						<title level="a">The Early Work of Goncharova and Larionov</title>
+					</analytic>
+					<monogr>
+						<title level="m">Burlington Magazine</title>
+						<imprint>
+							<biblScope unit="page">170-174</biblScope>
+							<pubPlace>London</pubPlace>
+							<publisher>Burlington Magazine Publications Ltd.</publisher>
+							<date>1955</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+
+	<text>
+
+		<front>
+			<div>
+				<docAuthor>Mary Chamot</docAuthor>
+				<titlePart type="a">The Early Work of Goncharova and Larionov</titlePart>
+			</div>
+		</front>
+
+		<body>
+			<p>
+				For the 
+				<date from="1915" to="1955">last forty years</date>
+				the names of these two distinguished Russian artists have been associated mainly with 
+				<foreign rend="italic">décor</foreign> 
+				for the theatre 
+				<note n="1" place="foot" type="authorial">(
+					<num type="cardinal" value="1">1 </num>)
+				</note>, and in the 
+				<title>'Diaghilev Exhibition'</title>
+				 held in 
+				<name type="place">Edinburgh</name> and 
+				<name type="place">London</name> in  
+				<date when="1954" calendar="Gregorian">1954</date>, theirs were among the designs that have stood the test of tme most successfully. Few people will now remember their contribution to 
+				<name type="person">Roger Fry</name>'s 
+				<title>'Second Post-Impressionist Exhibition'</title> at the 
+				<rs type="institution">Grafton Galleries</rs> in 
+				<date when="1912" calendar="Gregorian">1912</date>. 
+				<name type="person">Boris Anrep</name> made the selection and wrote an introduction to the Russian contingent for this, and, altough the work of 
+				<name type="person">Goncharova</name> and 
+				<name type="person">Larionov</name> was not mentioned in the first edition of the catalogue, it arrived during the exhibition and was included in the second or 
+				<soCalled>'rearranged'</soCalled> version of the catalogue and in the illustrated edition. Incidentally, the name of 
+				<name type="person">Goncharova</name> was spelt 
+				<name type="person">Goncharoff</name> and she was taken to be a man.
+			</p>
+
+			<p>
+				Since then, the part they played about 
+				<date when="1910" calendar="Gregorian">1910</date> in the development of abstract art had received little attention untile the acquisition of three examples of their work by the 
+				<rs type="institution">Tate Gallery</rs> in 
+				<date when="1910" calendar="Gregorian">1952</date>. The paintings produced 
+				<date from="1905" to="1914">between 
+					<date when="1905" calendar="Gregorian">1905</date> and 
+					<date when="1914" calendar="Gregorian">1914</date>
+				</date> cover the pictorial, as distinct from the theatrical, activity of 
+				<name type="person">Larionov</name> and seem strangely in accord with the artistic language of 
+				<date notAfter="1955">today</date>. Widely travelled, continually
+			</p>
+
+			<!--gap testo-->
+			<gap reason="cancelled" unit="pages" extent="1">
+				<desc>Contenuto sconosciuto</desc>
+			</gap>
+
+			<!--immagini-->
+			<figure>
+				<graphic n="1" url="https://www.wikiart.org/en/mikhail-larionov/rayonist-landscape"/>
+				<head>
+					<num type="cardinal" value="10">10.</num>
+					<title type="painting">
+						<emph>Rayonist Composition</emph>, by
+					</title>
+					<name type="person">Michael Larionov</name>. Signed with initials,
+					<date when="1908" calendar="Gregorian">1908</date>. Canvas 
+					<measure type="length" quantity="27" unit="centimetres">27</measure> by 
+					<measure type="length" quantity="16.6" unit="centimetres">16.5</measure> cm. (Exhibited 
+					<date when="1909" calendar="Gregorian">1909</date> at the artist's studio in 
+					<name type="place">Moscow</name>).
+				</head>
+			</figure>
+
+			<figure>
+				<graphic n="1" url="https://www.wikiart.org/en/mikhail-larionov/blue-rayonnism-the-fool"/>
+				<head>
+					<num type="cardinal" value="11">11.</num>
+					<title type="painting">
+						<emph>Rayonist Composition</emph>, by
+					</title>
+					<name type="person">Michael Larionov</name>. Signed with initials,
+					<date when="1909" calendar="Gregorian">1909</date>. Oil on board, 
+					<measure type="length" quantity="40" unit="centimetres">40</measure> by 
+					<measure type="length" quantity="24.3" unit="centimetres">24.3 </measure>cm. (Exhibited 
+					<date when="1909" calendar="Gregorian">1909</date> at the artist's studio in 
+					<name type="place">Moscow</name>).
+				</head>
+			</figure>
+
+			<figure>
+				<graphic n="1" url="https://www.wikiart.org/en/natalia-goncharova/flowers"/>
+				<head>
+					<num type="cardinal" value="12">12.</num>
+					<title type="painting">
+						<emph>Roses</emph>, by
+					</title>
+					<name type="person">Natalie Goncharova</name>. Signed and dated
+					<date when="1912" calendar="Gregorian">1912</date>. Canvas, 
+					<measure type="length" quantity="106" unit="centimetres">106</measure> by 
+					<measure type="length" quantity="66" unit="centimetres">66 </measure>cm. (Private Collection 
+					<name type="place">London</name>).
+				</head>
+			</figure>
+
+			<figure>
+				<graphic n="1" url="https://www.tate.org.uk/art/artworks/goncharova-three-young-women-n06193"/>
+				<head>
+					<num type="cardinal" value="13">13.</num>
+					<title type="painting">
+						<emph>Autumn</emph>, by
+					</title>
+					<name type="person">Natalie Goncharova</name>. Signed and dated
+					<date when="1910" calendar="Gregorian">1910</date>. Canvas, 
+					<measure type="length" quantity="102" unit="centimetres">102</measure> by 
+					<measure type="length" quantity="69" unit="centimetres">69 </measure>cm.
+					 (
+					 <name type="institution">Tate Gallery</name>, 
+					 <name type="place">London</name>).
+				</head>
+			</figure>
+
+			<p>
+				alert to the latest trends of painting in 
+				<name type="place">Paris</name>, and at the same time deeply sensitive to the popular at of 
+				<rs type="place">his own country</rs>, 
+				<name type="person">Larionov</name> was the prime mover, the inventor, the organizer of an original artistic movement in 
+				<name type="place">Russia</name>, which developed simultaneously with 
+				<rs type="artistic movement">Cubism</rs> and 
+				<rs type="artistic movement">Futurism</rs>.
+			</p>
+
+			<!--gap estratto-->
+			<gap reason="irrelevant" unit="paragraphs" extent="7">
+				<desc>Biografia e formazione artistica di Larionov con tre citazioni da altri testi</desc>
+			</gap>
+
+			<p>The work of 
+				<name type="person">Natalie Goncharova</name> is at times very close to that of 
+				<name>Larionov</name>, particularly during the 
+				<date from="1913" to="1914">
+					<rs type="artistic movement">rayonist</rs> period
+				</date>, but shows a stronger decorative trait and more dependence on 
+				<rs type="artistic movement">Byzantine</rs> and 
+				<rs type="artistic movement">Oriental</rs> inspiration. The daughter of an architect, she spent her summers with a grandmother in the 
+				<rs type="place">country</rs>, and the deep religious influences of her childhood remained an important factor in her artistic development. She began as a sculptor under 
+				<name type="person">Paul Troubetskoy</name> and met 
+				<name type="person">Larionov</name> while modelling animals at the 
+				<address>zoo</address>. Her early paintings were mostly of peasant subjects and religious compositions. She, too, got into difficulties with officialdom in 
+				<name type="place">Moscow</name> and was not permitted to show her religious paintings and at the exhibition entitled 
+				<title>'The Ass's Tail'</title>. 
+				<rs type="artistic movement">Cubism</rs> amde an immediate appeal to her, as it reminded her of Scynthian stone figures and the carve and painted wooden toys sold at Russian fairs. She claimed to be one of the pioneers of cubist painting in 
+				<name type="place">Russia</name>. The process of abstraction is clearly shown in two pictures of 
+				<emph rend="italic">Roses</emph>. The first, still in the artist's possession, is a straight-forward painting of a bunch of yellow roses in a glass jug with the back of a canvas behind. In a later version, dated 
+				<date when="1905" calendar="Gregorian">1912</date> (
+				<rs type="figure">
+					<choice>
+						<abbr>Fig.</abbr>
+						<expan>Figure</expan>
+					</choice>
+					<num type="cardinal" value="13">12</num>
+				</rs>), the flowers have been concentrated into one mass of intense glowing orange-yellow, set of by planes of black and deep green. The rose-leaf pattern has been carried into the background, across the stretcher, and the glass and water have been separeted, forming a cascade-like theme on the left. Technical experiments interested her as much as formal inventions. Her brush-work shows great variety, including methods borrowd from house and sign painters, as in the splashed-on white reflections in 
+				<emph rend="italic">Autumn</emph> (
+				<rs type="institution">Tate Gallery</rs>, 
+				<rs type="figure">
+					<choice>
+						<abbr>Fig.</abbr>
+						<expan>Figure</expan>
+					</choice>
+					<num type="cardinal" value="13">13</num>
+				</rs>).
+			</p>
+		</body>
+
+		<back>
+			<div type="notes">
+				<p>
+					<num type="cardinal" value="1">1.</num> 
+					<name type="person">
+						<choice>
+							<abbr>R.</abbr>
+							<expan>Roger</expan>
+						</choice> FRY
+					</name>: 
+					<title>'
+						<name type="person">
+							<choice>
+								<abbr>M.</abbr>
+								<expan>Michail</expan>
+							</choice> Larionov
+						</name> and the Russian Ballet'
+					</title>, 
+					<title>THE BURLINGTON MAGAZINE</title>, 
+					<num type="roman" value="34">XXXIV</num> [
+					<date when="1919-03">
+						<name type="month">March</name> 
+						<num type="cardinal" value="1919">1919</num>
+					</date>], 
+					<choice>
+						<abbr>p.</abbr>
+						<expan>page</expan>
+					</choice>
+					<num type="cardinal" value="112">112</num>
+				</p>
+			</div>
+		</back>
+
+	</text>
+
+</TEI>
+
+
