@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd"><!--verificare questi-->
+	<dc:title>Trois Jeunes filles</dc:title>
+	<dc:alternative>Automne</dc:alternative>
+	<dc:creator xsi:type="mp:ULAN" mp:ref="http://vocab.getty.edu/page/ulan/500115630">Goncharova Natalia</dc:creator><!--verificare codici-->
+	<dc:contributor xml:id="CMG">Chiara Montemagno</dc:contributor>
+	<dc:contributor xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/1100837"> Tate Modern, London</dc:contributor>
+	<dc:publisher>'Natalia.', DH project, Università Alma Mater Studiorum di Bologna.</dc:publisher>
+	<dc:rightsholder><!--inserire--></dc:rightsholder>
+	<dc:type>dipinto</dc:type>
+	<!-- hardware per la visualizzazione della risorsa-->
+	<dc:format xsi:type="dcterms:IMT">image/jp2</dc:format><!--in che senso?-->
+	<!--formato fisico-->
+	<dc:format>supporto:101.9x68.3cm  immagine:109.3x75.8x5.6cm</dc:format>
+	<!--dimensioni file digitale-->
+	<dc:extent>240KB</dc:extent>
+	<dc:medium>olio su tela</dc:medium>
+	<dc:identifier xsi:type="URI">https://cmontema.github.io/Natalia_Goncharova_DHexamproject/</dc:identifier>
+	<dc:description xml:lang="it">
+	"Tre giovani donne (Autunno)" è un dipinto realizzato nel 1920 dall'artista russa Natalia Goncharova.L'apparente astrazione di questa composizione deriva dalle forme radicalmente ristrutturate delle tre donne identificate nel titolo. Molti anni dopo il suo completamento, l'artista lo descrisse come: "Tre figure femminili a mezzo busto, il gioco della luce solare e i riflessi di un sentiero sabbioso (arancione giallastro) e rosso arancio ecc." Le forme frammentate che Goncharova prediligeva nelle opere precedenti vengono qui risolte in una sintesi più stabile che riflette il suo contributo agli sviluppi nella Parigi del primo dopoguerra.
+	</dc:description>
+	<dc:subject xml:lang="it">arte, arti figurative, dipinto, olio su tela, raggismo, Russia, donne, Tate, londra, colori caldi, postimpressionismo, Goncharova, 1920, Autunno, giallo, arancione, astrazione. emozioni, frammentazione, natura, persone, gruppo</dc:subject>
+	<!--  classificazione paintings  -->
+	<dc:subject xsi:type="dcterms:UDC">75</dc:subject>
+	<!--  soggetto preraffaeliti  -->
+	<dc:subject xsi:type="mp:BNCF">27752</dc:subject>
+	<!--  soggetto Hamlet  -->
+	<dc:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh87000673</dc:subject>
+	<!--  soggetto Ophelia  -->
+	<dc:subject xsi:type="dcterms:LCC">
+	http://id.loc.gov/authorities/classification/N8234.O64
+	</dc:subject>
+	<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/1100837">Tate Britain, London</dc:coverage>
+	<dc:date type="creation">1920</dc:date>
+	<dc:source>https://www.tate.org.uk/art/artworks/millais-ophelia-n01506</dc:source>
+	<dc:relation>
+	https://www.tate.org.uk/art/artworks/goncharova-three-young-women-n06193
+	</dc:relation>
+	<dc:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</dc:rights>
+	
+</mp:metadata>
