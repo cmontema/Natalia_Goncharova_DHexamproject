@@ -9,7 +9,7 @@ h1, h2, h3, h5, .navbar-brand{
 
 }
 
-h1, #sottotitolo {
+h1, h4 {
 	color: #f2f2f2!important;
 
 }
@@ -20,9 +20,13 @@ h2 {
 }
 
 
-h3{
+h3 {
 	text-align: center;
 
+}
+
+h4 {
+	font-family: "Helvetica", sans-serif;
 }
 
 
@@ -181,8 +185,8 @@ th, td {
 }
 
 .d-block2 {
-	width: 25rem;
-	height: 17rem;
+	width: 30rem;
+	height: 15rem;
 	object-fit: cover;
 
 }
@@ -197,7 +201,7 @@ th, td {
 
 }
 
-.nav-link, .dropdown-item, .sr-only, #sottotitolo {
+.nav-link, .dropdown-item, .sr-only {
 	font-family: "Helvetica", sans-serif!important;
 	color: #808080!important;
 
