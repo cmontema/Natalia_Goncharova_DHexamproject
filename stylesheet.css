@@ -1,21 +1,87 @@
 a {
 	color: #af92b9;
+
 }
+
+h1, h2, h3, h5, .navbar-brand{
+	font-family: "Lucida Console", monospace;
+	color: #7f5a8c; 
+
+}
+
+h1, #sottotitolo {
+	color: #f2f2f2!important;
+
+}
+
+h2 {
+	text-align: center;
+
+}
+
+
+h3{
+	text-align: center;
+
+}
+
+
+h6 { 
+	color:#f2f2f2;
+	font-family: "Lucinda Console", monospace;
+
+}
+
+h7 {
+	color: #af92b9;
+	font-family: "Helvetica", sans-serif;
+
+}
+
+
+li a:hover {
+	color: #bfbfbf!important;
+
+}
+
+nav {
+	background-color: transparent;
+
+}
+
+nav .breadcrumb {
+
+	font-size: 14px;
+	background-color: transparent;
+	margin-bottom: 5px;
+	width: 30%;
+	display: block;
+
+}
+
+p {
+	font-size: 15px;
+	font-family: "Helvetica", sans-serif;
+	color:#404040;
+
+}
+
+th, td {
+	color: #404040!important;
+
+}
+
+
+
+
 
 .bg-light {
 	background-color: #f2f2f2!important;
+
 }
 
-#bodyhomepage {
-	background-color: #f2f2f2;
-	background-image: url("immagini/Immagine_di_sfondo_gardening.jpeg");
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
-}
-
-#bodynormale {
-	background-color: #62466d;
+.breadcrumb-item {
+	color: #f2f2f2!important;
 
 }
 
@@ -38,39 +104,35 @@ a {
 
 .btn:hover { 
 	color: #bfbfbf;
-}
 
-.card-img-top {
-	width: 17,5rem;
-	height: 21rem;
-	object-fit: cover;
-}
-
-.card-img-top1 {
-	width: 14,9rem;
-	height: 13rem;
-	object-fit: cover;
-}
-
-.card-img-left {
-	width: 13rem;
-	height: 13rem;
-	object-fit: cover;
 }
 
 .card-img-bottom {
 	width: 11rem;
 	height: 10rem;
 	object-fit: cover;
+
 }
 
-#carditem { 
-	margin-left: 3px;
-	margin-right: 3px;
+.card-img-left {
+	width: 13rem;
+	height: 13rem;
+	object-fit: cover;
+
 }
 
-.breadcrumb-item {
-	color: #f2f2f2!important;
+.card-img-top {
+	width: 17,5rem;
+	height: 21rem;
+	object-fit: cover;
+
+}
+
+.card-img-top1 {
+	width: 14,9rem;
+	height: 13rem;
+	object-fit: cover;
+
 }
 
 .carousel-caption {
@@ -81,28 +143,16 @@ a {
 
 }
 
-
-.d-block1 {
-	width: 50%;
-	height: 30rem;
-	object-fit: cover;
-
-}
-
 .catalogotitolo {
 	font-family: "Lucida Console", monospace;
 	font-size: 22px;
 	text-align: center;
+
 }
 
 .container {
 	margin-top: 30px;
-	
 
-}
-
-#containercard {
-	background: transparent;
 }
 
 .containercataloghi {
@@ -123,28 +173,28 @@ a {
 
 }
 
+.d-block1 {
+	width: 50%;
+	height: 30rem;
+	object-fit: cover;
+
+}
+
+.d-block2 {
+	width: 25rem;
+	height: 17rem;
+	object-fit: cover;
+
+}
+
 .descrizioneopera {
 	color:#7f5a8c;
+
 }
 
 .form-check-label {
 	color: #f2f2f2;
-}
 
-#fotocard {
-	width: auto;
-	height: 400px;
-}
-
-#fotocard-percorsi {
-	width: 25rem;
-	height: 17rem;
-	object-fit: cover;
-}
-
-h1, h2, h3, h5, .navbar-brand{
-	font-family: "Lucida Console", monospace;
-	color: #7f5a8c; 
 }
 
 .nav-link, .dropdown-item, .sr-only, #sottotitolo {
@@ -153,58 +203,8 @@ h1, h2, h3, h5, .navbar-brand{
 
 }
 
-h1, #sottotitolo {
-	color: #f2f2f2!important;
-
-}
-
-h2 {
-	text-align: center;
-}
-
-
-h3{
-	text-align: center;
-}
-
-
-h6 { 
-	color:#f2f2f2;
-	font-family: "Lucinda Console", monospace;
-}
-
-h7 {
-	color: #af92b9;
-	font-family: "Helvetica", sans-serif;
-}
-
-
-li a:hover {
-	color: #bfbfbf!important;
-}
-
-nav {
-	background-color: transparent;
-}
-
 .nav-item {
 	color: #af92b9;
-}
-
-nav .breadcrumb {
-
-	font-size: 14px;
-	background-color: transparent;
-	margin-bottom: 5px;
-	width: 30%;
-	display: block;
-
-}
-
-p {
-	font-size: 15px;
-	font-family: "Helvetica", sans-serif;
-	color:#404040;
 
 }
 
@@ -213,6 +213,7 @@ p {
 	font-family: "Helvetica", sans-serif;
 	font-size: 13px;
 	text-align: justify;
+
 }
 
 .pagination { 
@@ -228,27 +229,28 @@ p {
 	padding: 8px 16px;
 	text-decoration: none;
 	text-align: center;
+
 }
 
 .pagination a:hover {
 	background-color: #404040;
+
 }
 
 .pagination a.active {
   background-color: #f2f2f2;
   color: #7f5a8c;
-}
 
-th, td {
-	color: #404040!important;
 }
 
 .table-light, .card-light {
 	background-color: #f2f2f2!important;
+
 }
 
 .table-dark, .card-dark {
 	background-color: #404040!important;
+
 
 }
 
@@ -261,13 +263,53 @@ th, td {
 
 }
 
+
+
+
+
+
+
+
+#bodyhomepage {
+	background-color: #f2f2f2;
+	background-image: url("immagini/Immagine_di_sfondo_gardening.jpeg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+
+}
+
+#bodynormale {
+	background-color: #62466d;
+
+}
+
+#carditem { 
+	margin-left: 3px;
+	margin-right: 3px;
+
+}
+
+#containercard {
+	background: transparent;
+
+}
+
+#fotocard {
+	width: auto;
+	height: 400px;
+
+}
+
 #titoloitem {
 	color: #af92b9;
+
 }
 
 
 #titolopercorsi {
 	color: #f2f2f2;
+	
 }
 
 

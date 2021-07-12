@@ -4,7 +4,7 @@
 	<head>
 		<title>Natalia</title>
 
-		<!-- metadati fondamentali: charset e viewport + metadati descrittivi -->
+		<!-- metadati fondamentali-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta name="description" content="progetto personale di Chiara Montemagno per corso di DH e CH">
@@ -16,9 +16,7 @@
 
 		<!-- CSS stylesheet -->
 		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-		<!-- metadati DC -->
-		<!--icone boostrap -->
-		<!-- foglio di stile-->
+		
 	</head>
 
 	<body id="bodynormale">
@@ -85,9 +83,10 @@
 				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 				      <button class="btn btn-outline btn-sm" type="submit">Ricerca libera</button>
 				    </form>
-				  </div>
-				</nav>
+				</div>
+			</nav>
 
+			<!--breadcrumb-->
 			<nav>
 				<ol class="breadcrumb">
 				    <li class="breadcrumb-item"><a href="https://cmontema.github.io/Natalia_Goncharova_DHexamproject/" title="Vai alla homepage">Home</a></li>
@@ -99,7 +98,7 @@
 
 		</header>
 		
-		<!--container foto e info-->
+		<!--section foto e info-->
 		<section class="container">
 			<div class="row">
 				<div class="col-md-9">
@@ -119,6 +118,8 @@
 						</div>
 					</div>
 				</div>
+
+				<!--aside-->
 				<div class="col-md-3">
 					<div>
 						<h6>Raccontano di lei: i traduttori</h6>
@@ -130,9 +131,12 @@
 					</div>
 				</div>
 			</div>
+
+			<!--table informazioni-->
 			<div id="carditem" class="card mb-3 mt-0 bg-light">
 				<div class="card-body">
 					<div class="row">
+						<!--bootstrap carousel-->
 						<div class="col-md-4">
 							<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000">
 							 	<div class="carousel-inner">
@@ -169,67 +173,79 @@
 								      <th scope="row"></th>
 								      <td>Cognome e nome:</td>
 								      <td></td>
-								      <td>@mdo</td>
+								      <td>
+								      		<a href="https://viaf.org/viaf/search?query=local.names%20all%20%22marina%20ivanova%22&sortKeys=holdingscount&recordSchema=BriefVIAF" target="_blank" title="Virtual International Authority File">Marina Ivanova Tsvetaeva
+								      			<sup>VIAF</sup>
+								      		</a>
+								      </td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Biografia:</td>
 								      <td></td>
-								      <td>@fat</td>
+								      <td>Scrittrice russa, 1892-1941</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Nascita:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>Mosca, 8 ottobre 1892</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Morte:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>Elabuga, 31 agosto 1941</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Nazionalità:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>russa</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Sesso:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>F</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Attività:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>scrittrice</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Attività:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>poetessa</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Attività:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>biografa</td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Persona correlata:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>
+								      		<a href="https://viaf.org/viaf/99832469/#Gontcharova,_Nathalie,_1881-1962" target="_blank" title="Virtual International Authority File">Natalia Goncharova
+						      					<sup>VIAF</sup>
+						      				</a>
+								      </td>
 								    </tr>
 								    <tr>
 								      <th scope="row"></th>
 								      <td>Persona correlata:</td>
 								      <td></td>
-								      <td>@twitter</td>
+								      <td>
+								      		<a href="https://viaf.org/viaf/121962789/#Larionov,_Michel,_1881-1964" target="_blank" title="Virtual International Authority File">Michail Larionov
+						      					<sup>VIAF</sup>
+						      				</a>
+						      		   </td>
 								    </tr>
 								  </tbody>
 							</table>
@@ -242,13 +258,38 @@
 							      <th scope="row"></th>
 							      <td>Controllo di autorità:</td>
 							      <td></td>
-							      <td>@mdo</td>
+							      <td>
+							      		<ul>
+							      			<li>
+							      				<a href="https://isni.oclc.org/xslt/DB=1.2/SET=1/TTL=1/CLK?IKT=8006&TRM=marina+ivanovna+cvetaeva," target="_blank" title="International Standard Identifier">0000 0001 2125 1528
+						      						<sup>ISNI</sup>
+						      					</a>
+							      			</li>
+							      			<li>
+							      				<a href="https://www.worldcat.org/identities/lccn-n79122488/" target="_blank" title="WorldCat Identities">Iccn-n79122488
+						      						<sup>WorldCat Identities</sup>
+						      					</a>
+							      			</li>
+							      			<li>
+							      				<a href="https://catalogue.bnf.fr/ark:/12148/cb11927207x" target="_blank" title="Bibliothéque Nationale de France">FRBNF11927207
+						      						<sup>BnF</sup>
+						      					</a>
+							      			</li>
+							      			<li>
+							      				<a href="https://viaf.org/viaf/search?query=local.names%20all%20%22marina%20ivanova%22&sortKeys=holdingscount&recordSchema=BriefVIAF" target="_blank" title="Virtual International Authority File">27072381
+								      				<sup>VIAF</sup>
+								      		</a>
+							      			</li>
+							      		</ul>
+							      </td>
 							    </tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
 			</div>
+
+			<!--sezione item correlati-->
 			<div class="container-fluid mb-3 mt-1 bg-dark">
 				<h6 class="mt-1 ml-1">Item correlati:</h6>
 				<div class="card-body m-1">
@@ -297,7 +338,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- fine container foto e info-->
+		<!-- fine sezione foto e info-->
 
 		<!--footer-->
 		<footer>
