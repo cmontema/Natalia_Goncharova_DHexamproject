@@ -3,7 +3,7 @@
 
 	<dc:title>Trois Jeunes filles</dc:title>
 	<dc:alternative>Automne</dc:alternative>
-	<dc:creator xsi:type="mp:ULAN" mp:ref="http://vocab.getty.edu/page/ulan/500115630">Goncharova Natalia</dc:creator><!--verificare codici-->
+	<dc:creator xsi:type="mp:ULAN" mp:ref="http://vocab.getty.edu/page/ulan/500115630">Goncharova Natalia</dc:creator>
 	<dc:contributor xml:id="CMG">Chiara Montemagno</dc:contributor>
 	<dc:contributor xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/1100837"> Tate Gallery, London</dc:contributor>
 	<dc:publisher>'Natalia.', DH project, Università Alma Mater Studiorum di Bologna.</dc:publisher>
@@ -12,7 +12,7 @@
 	<dc:type>dipinto</dc:type>
 	<!-- hardware per la visualizzazione della risorsa-->
 	<dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
-	<!--formato fisico-->
+	<!--misure oggetto fisico-->
 	<dc:format>supporto:101.9x68.3cm  cornice:109.3x75.8x5.6cm</dc:format>
 	<!--dimensioni file digitale-->
 	<dc:extent>240KB</dc:extent>
