@@ -43,7 +43,7 @@ h7 {
 }
 
 
-li a:hover {
+li a:hover, a:hover {
 	color: #bfbfbf!important;
 
 }
@@ -168,7 +168,7 @@ th, td {
 }
 
 .container-fluid {
-	background-color: rgba(242, 242, 242, 0.79);
+	background-color: rgba(242, 242, 242, 0.85);
 	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 40px;
